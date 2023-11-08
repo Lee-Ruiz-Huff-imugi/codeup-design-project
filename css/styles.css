@@ -1,6 +1,6 @@
 body {
     font-family: 'Abel Regular', sans-serif;
-    background: #E6E6E6;
+    background: #f0f0f0;
 }
 
 h1, h2, h3 {
@@ -23,19 +23,29 @@ h2 {
 }
 
 .circle {
-    width: 210px;
-    height: 210px;
-    box-shadow: 0 0 0 10px #F0F0F0;
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 0 0 10px white;
     border-radius: 50%;
-    color: #F0F0F0;
-    line-height: 210px;
-    margin-top: 2em;
+    color: white;
+    line-height: 120px;
+    margin: 2em 0 0 0;
+}
+img{
+    padding: 5px ;
+    background-color: #e6e6e6;
 }
 
 .smallCircle {
+    font-family: Anton, sans-serif;
     width: 18px;
     height: 18px;
     border-radius: 50%;
+    margin: 0 0 0 3px;
+    text-align: center;
+    padding: 0 ;
+    line-height: 18px;
+    font-size: 12px;
 }
 
 .red {
@@ -49,4 +59,7 @@ h2 {
 }
 .orange {
     background-color: #EB9D3A;
+}
+.margin{
+    margin-top: 4em;
 }
