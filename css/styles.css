@@ -25,15 +25,20 @@ h2 {
 .circle {
     width: 125px;
     height: 125px;
-    box-shadow: 0 0 0 10px white;
+    box-shadow: 0 0 0 5px white;
+    border: none;
     border-radius: 50%;
     color: white;
     line-height: 120px;
     margin: 2em 0 0 0;
 }
-img{
-    padding: 5px ;
+main img{
+    /*display: inline-flex;*/
+    margin: 0;
+    padding: 5px;
     background-color: #e6e6e6;
+    width: 100%;
+
 }
 
 .smallCircle {
@@ -62,4 +67,7 @@ img{
 }
 .margin{
     margin-top: 4em;
+}
+.special{
+    min-width: 226px;
 }
