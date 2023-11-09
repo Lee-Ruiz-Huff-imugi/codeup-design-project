@@ -20,6 +20,19 @@ h4 {
     font-size: 1.5em;
 }
 
+article img {
+    padding: 5px;
+    background-color: #e6e6e6;
+    height: 84%;
+}
+
+aside img {
+    padding: 3px;
+    background-color: #e6e6e6;
+    width: 70px;
+    height: 70px;
+}
+
 .circle {
     width: 145px;
     height: 145px;
@@ -30,21 +43,8 @@ h4 {
     margin: 2em 0 0 0;
 }
 
-article img {
-    padding: 5px;
-    background-color: #e6e6e6;
-    height: 84%;
-}
-
 .fit {
     object-fit: fill;
-}
-
-aside img {
-    padding: 3px;
-    background-color: #e6e6e6;
-    width: 70px;
-    height: 70px;
 }
 
 .smallCircle {
