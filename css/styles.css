@@ -35,13 +35,20 @@ h4 {
     line-height: 120px;
     margin: 2em 0 0 0;
 }
-main img{
-    /*display: inline-flex;*/
+article img{
+    /*display: block;*/
     margin: 0;
     padding: 5px;
+
     background-color: #e6e6e6;
     width: 100%;
 
+}
+.fit{
+    object-fit: cover;
+}
+aside img{
+    object-fit: contain;
 }
 
 .smallCircle {
@@ -67,10 +74,4 @@ main img{
 }
 .orange {
     background-color: #EB9D3A;
-}
-.margin{
-    margin-top: 4em;
-}
-.special{
-    min-width: 226px;
 }
