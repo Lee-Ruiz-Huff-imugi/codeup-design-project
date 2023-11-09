@@ -3,13 +3,14 @@ body {
     background: #f0f0f0;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     font-family: "Anton", sans-serif;
 }
 
 h1 {
     font-size: 4.5em;
 }
+
 h2 {
     font-size: 3em;
     margin-top: 1em;
@@ -20,27 +21,26 @@ h4 {
 }
 
 .circle {
-    width: 125px;
-    height: 125px;
+    width: 145px;
+    height: 145px;
     box-shadow: 0 0 0 5px white;
-    border: none;
     border-radius: 50%;
     color: white;
-    line-height: 120px;
+    line-height: 140px;
     margin: 2em 0 0 0;
 }
-article img{
-    margin: 0;
+
+article img {
     padding: 5px;
     background-color: #e6e6e6;
     height: 84%;
 }
 
-.fit{
-    object-fit: cover;
+.fit {
+    object-fit: fill;
 }
 
-aside img{
+aside img {
     padding: 3px;
     background-color: #e6e6e6;
     width: 115px;
@@ -54,20 +54,22 @@ aside img{
     border-radius: 50%;
     margin: 0 0 0 3px;
     text-align: center;
-    padding: 0 ;
-    line-height: 18px;
+    padding: 0;
     font-size: 12px;
 }
 
 .red {
     background-color: #E6563B;
 }
+
 .blue {
     background-color: #00ABA9;
 }
+
 .green {
     background-color: #7CB06C;
 }
+
 .orange {
     background-color: #EB9D3A;
 }
