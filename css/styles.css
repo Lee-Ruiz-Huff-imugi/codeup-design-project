@@ -73,3 +73,8 @@ aside img {
 .orange {
     background-color: #EB9D3A;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}
