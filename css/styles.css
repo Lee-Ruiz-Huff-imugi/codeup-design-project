@@ -48,7 +48,9 @@ article img{
     object-fit: cover;
 }
 aside img{
-    object-fit: contain;
+    padding: 3px;
+    background-color: #e6e6e6;
+    width: 100%;
 }
 
 .smallCircle {
